@@ -6,13 +6,15 @@
    <style type="text/css">
         body{
             background-image: url(https://desk-fd.zol-img.com.cn/t_s1280x800c5/g2/M00/00/09/ChMlWVW7KBSIOMMaAA6STo-lqVQAAH8YwB32bEADpJm404.jpg);
-            background-size: 100%,100%;
             height: 100%;
+            position: absolute;
+            left: 20px;
+            top:30px;
         }
        @keyframes myframe {
-           0%{background: blue}
-           50%{background: red}
-           100%{background: blue}
+           0%{color: blue}
+           50%{color: red}
+           100%{color: blue}
        }
        h1{
            animation: myframe 10s infinite;
@@ -26,8 +28,6 @@
 <body>
 <h1 class="young">Yuan HanFei Homepage</h1>
 <div class="young">No description, website, or topics provided.</div>
-<video width="260" height="300" controls>
-    <source src="piano.mp4" type="video/mp4">
-</video>
+<audio src="bgm.wav" controls="controls" autoplay="autoplay"></audio>
 </body>
 </html>
